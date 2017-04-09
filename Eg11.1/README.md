@@ -1,6 +1,6 @@
 #### Complining
 
-- `g++ -I /path/to/boost/ -o example ascii_char.cpp`
+- `g++ -I /path/to/boost/ -std=c++11 ascii_char.cpp -o example`
 
 #### use
 

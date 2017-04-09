@@ -17,7 +17,8 @@ int main()
   qi::parse takes three arguments
   first: iterator that is initized to the first variable
   second: condition to be true
-  third: the test case. The parser check if the string is in this class
+  third: the test case. The parser check if the string is in this class.
+         remember it is not a loop. 
   match = true if the it is in ascii::digit class
   */
   bool match = qi::parse(it, s.end(), ascii::digit);
