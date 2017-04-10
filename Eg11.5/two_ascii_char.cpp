@@ -10,6 +10,8 @@ int main() {
   auto it = s.begin();
 
   bool match = qi::phrase_parse(it, s.end(), ascii::digit >> ascii::digit, ascii::space);
+  // qi::lexeme[ascii::digit >> ascii::digit]
+  // Use the above line to check if the two digits are not having any space in them.
   std::cout<< std::boolalpha << match<< "\n";
 
   if(it != s.end()){

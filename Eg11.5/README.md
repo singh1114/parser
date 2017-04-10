@@ -1,0 +1,2 @@
+- This program checks for the input of two digits.
+- phrase_parse skips all the spaces before it encounters two digits.
