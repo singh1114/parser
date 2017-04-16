@@ -26,7 +26,7 @@ namespace client {
 int main(){
 	using client::parseString;
 
-	std::cout<<"Enter a string of type '{44}'";
+	std::cout<<"Enter a string of type '{44}'\n";
 	std::string s;
 	std::getline(std::cin, s);
 
