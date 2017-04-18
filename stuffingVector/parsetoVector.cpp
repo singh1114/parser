@@ -25,9 +25,13 @@ namespace client {
 				'(' >> qi::double_[push_back(phoenix::ref(v), qi::_1)]
 				>> *(',' >> qi::double_[push_back(phoenix::ref(v), qi::_1)])
 				>> ')'
+				/*
+				'(' >> double_ % ',' >> ')'
+				*/
 			)
 			,
 			// End grammer
+			
 			qi::space
 		);
 
